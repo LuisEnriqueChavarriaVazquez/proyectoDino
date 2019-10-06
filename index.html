@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clasificador de Dinos</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="style/materialize.css">
+    <link rel="stylesheet" href="style/styleDeeper.css">
+    <link rel="stylesheet" href="icons/style.css">
+    <link rel="stylesheet" href="style/fuentes.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <!--Menu de la aplicacion-->
+
+    <section class="navbar-fixed z-depth-3">
+
+        <div class="navbar-fixed">
+            <nav>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <div class="nav-wrapper green darken-4">
+                    <a href="#!" class="brand-logo">Dinopedia</a>
+                    <ul class="right hide-on-med-and-down">
+                    </ul>
+                </div>
+
+                <div class="nav-wrapper green darken-4 z-depth-2 ">
+                    <form>
+                        <div class="input-field">
+                            <input id="search" type="search" required placeholder="Busqueda especifica">
+                            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <!--Menu deslizable para la aplicacion-->
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="pictures/dino.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="pictures/dino.jpg"></a>
+                <a href="#name"><span class="white-text name">John Doe</span></a>
+                <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+
+
+
+    <section class="container">
+
+        <!--Aqui tenemos la seccion de categorias-->
+
+        <div>
+            <p class="textFormat">Categorias.</p><br>
+            <div class="chip white z-depth-2 textFormatChips">
+                Epoca
+            </div>
+            <div class="chip white z-depth-2 textFormatChips">
+                Familia
+            </div>
+
+            <div class="chip white z-depth-2 textFormatChips">
+                Alfabeto
+            </div>
+        </div>
+
+        <br>
+
+
+
+        <!--En esta parte tenemos nuestro cuadro de resultados-->
+        <p class="textFormat">Resultados</p>
+        <br>
+
+        <ul class="collection with-header z-depth-3">
+
+            <li class="collection-item">
+                <div>Dino1<a href="#!" class="secondary-content"><i class="material-icons black-text">add</i></a></div>
+            </li>
+            <li class="collection-item">
+                <div>Dino2<a href="#!" class="secondary-content"><i class="material-icons black-text">add</i></a></div>
+            </li>
+            <li class="collection-item">
+                <div>Dino3<a href="#!" class="secondary-content"><i class="material-icons black-text">add</i></a></div>
+            </li>
+            <li class="collection-item">
+                <div>Dino4<a href="#!" class="secondary-content"><i class="material-icons black-text">add</i></a></div>
+            </li>
+        </ul>
+    </section>
+
+
+</body>
+
+</html>

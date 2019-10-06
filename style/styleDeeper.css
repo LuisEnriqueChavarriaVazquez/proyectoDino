@@ -1,0 +1,29 @@
+body {
+    background: rgb(228, 226, 226);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.textFormat {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textFormatChips {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/*Caja de texto*/
+
+.cajaTexto {
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}

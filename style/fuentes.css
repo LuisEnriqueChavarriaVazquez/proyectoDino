@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Courgette";
+    src: url("../typography/Courgette.ttf");
+}
+
+.titleSection1 {
+    font-family: "Courgette";
+}
+
+@font-face {
+    font-family: "FredokaOne";
+    src: url("../typography/FredokaOne.ttf");
+}
+
+.titleSection {
+    font-family: "FredokaOne";
+}
+
+.titleSection2 {
+    font-family: "FredokaOne";
+    font-size: 30px;
+}
