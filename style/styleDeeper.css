@@ -27,3 +27,26 @@ body {
     margin-top: 1px;
     margin-bottom: 10px;
 }
+
+/*Fondos para los dinos*/
+
+.containerFoto{
+    height: 220px;
+    width: 100%;
+}
+
+/*Fondo para nuestro slider*/
+
+.fondo1{
+    background: url("../pictures/dinoport1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo2{
+    background: url("../pictures/dinoport2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

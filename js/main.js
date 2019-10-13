@@ -4,12 +4,15 @@ $(document).ready(function() {
         indicators: true
     });
     $('.slider').slider({
-        height: 230,
+        height: 300,
         indicators: false
     });
+
     $('.tabs').tabs();
 
     $('.collapsible').collapsible();
+    $('.parallax').parallax();
+    $('.materialboxed').materialbox();
 
 
     $('.fixed-action-btn').floatingActionButton();
