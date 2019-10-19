@@ -8,12 +8,5 @@ $(document).ready(function() {
         indicators: false
     });
 
-    $('.tabs').tabs();
-
-    $('.collapsible').collapsible();
-    $('.parallax').parallax();
-    $('.materialboxed').materialbox();
-
-    $('.fixed-action-btn').floatingActionButton();
-    $('.sidenav').sidenav();
+    M.AutoInit();
 });
