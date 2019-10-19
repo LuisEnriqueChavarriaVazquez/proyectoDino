@@ -13,6 +13,8 @@ $(document).ready(function() {
     $('.collapsible').collapsible();
     $('.parallax').parallax();
     $('.materialboxed').materialbox();
+    $('.tabs').tabs();
+    $(".owl-carousel").owlCarousel();
 
 
     $('.fixed-action-btn').floatingActionButton();
