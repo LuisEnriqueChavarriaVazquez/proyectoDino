@@ -5222,7 +5222,7 @@ small {
     overflow-y: hidden;
     height: 48px;
     width: 100%;
-    background-color: #fff;
+    background-color: transparent;
     margin: 0 auto;
     white-space: nowrap;
 }
@@ -5285,7 +5285,7 @@ small {
 
 .tabs .tab a:focus,
 .tabs .tab a:focus.active {
-    background-color: rgba(246, 178, 181, 0.2);
+    background-color: transparent;
     outline: none;
 }
 
@@ -5297,14 +5297,14 @@ small {
 
 .tabs .tab.disabled a,
 .tabs .tab.disabled a:hover {
-    color: rgba(238, 110, 115, 0.4);
+    color: transparent;
     cursor: default;
 }
 
 .tabs .indicator {
     position: absolute;
     bottom: 0;
-    height: 4px;
+    height: 0px;
     background-color: #f6b2b5;
     will-change: left, right;
 }
