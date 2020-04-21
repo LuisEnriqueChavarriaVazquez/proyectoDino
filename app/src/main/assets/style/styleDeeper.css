@@ -1,0 +1,126 @@
+body {
+    background: rgb(228, 226, 226);
+}
+
+.text_logo{
+    font-family: "Fredoka One";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.thiner{font-size: 15px;}
+
+.paddingerBrowser{
+	padding: 10px;
+}
+
+.textFormat {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textFormatChips {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.border_rounder_top{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;}
+.border_rounder_bottom{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.bigDick{
+    width: 100%;
+}
+
+
+
+/*Caja de texto*/
+
+.cajaTexto {
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+/*Fondos para los dinos*/
+
+.containerFoto{
+    height: 160px;
+    width: 100%;
+}
+
+/*Fondo para nuestro slider*/
+
+.fondo1{
+    background: url("../pictures/dinoport1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo2{
+    background: url("../pictures/dinoport2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.fondo3{
+    background: url("../pictures/dinoport4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*MARGIN CERO*/
+
+.marginCero{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;;
+}
+
+/*Clase search para el buscador*/
+
+#table-style{
+	width: 100%;
+	margin: auto;
+	background: #fff;
+	opacity: .95;
+	padding: 0 10px;
+	padding-bottom: 5px;
+	display: none;
+}
+
+.element-table{
+	width: 100%;
+	height: 0px;
+}
+
+tbody tr td a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #737373;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.dataTables_length, .dataTables_filter, .dataTables_info, .dataTables_paginate{
+	display: none;
+}
+  
+  .title-table{
+    padding: 0px 30px;
+  }
